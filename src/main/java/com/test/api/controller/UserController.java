@@ -11,23 +11,11 @@ import java.util.List;
 
 @RestController
 @AllArgsConstructor
+@RequestMapping("/user")
 public class UserController {
     private final UserService userService;
 
 
-    //register user
-
-    @PostMapping("/singup")
-    public ResponseEntity addNewUser(@RequestBody User user){
-        User user1 = userService.addNewUser(user);
-
-        if (user1==null){
-            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
-        }else {
-            return ResponseEntity.status(HttpStatus.CREATED).build();
-        }
-
-    }
 
 
 
