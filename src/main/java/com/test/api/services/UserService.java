@@ -6,6 +6,7 @@ import com.test.api.entity.User;
 import com.test.api.repositery.UserRepositery;
 import lombok.AllArgsConstructor;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -16,7 +17,7 @@ public class UserService {
 
     private final UserRepositery userRepositery;
 
-    private final BCryptPasswordEncoder passwordEncoder;
+    private final PasswordEncoder passwordEncoder;
 
     public User addNewUser(RegisterUserDto registerUserDto){
 
@@ -59,6 +60,9 @@ public class UserService {
 
     public void AuthorizationUser(LoginUserDto loginUserDto) {
 
-        //authorize user
+        User byEmail = this.userRepositery.findByEmail(loginUserDto.getEmail());
+
+
+
     }
 }
