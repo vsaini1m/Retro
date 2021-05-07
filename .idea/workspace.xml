@@ -5,26 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="187c3107-a2b4-4a25-9ccf-e1b121d7561a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_0_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/api/configuration/JwtAuthFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/api/dto/JwtResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/api/healper/JwtUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apitest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/apitest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/api/configuration/CustomUserDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/api/configuration/CustomUserDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/api/configuration/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/api/configuration/SecurityConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/api/configuration/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/api/configuration/UserDetailsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/api/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/api/controller/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/api/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/api/services/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/test/api/ApiTestApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/api/ApiTestApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/test/api/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/api/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/test/api/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/api/entity/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/test/api/repositery/UserRepositery.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/api/repositery/UserRepositery.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/test/api/services/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/api/services/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/test/api/ApiTestApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/test/api/ApiTestApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/api/configuration/JwtAuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/api/configuration/JwtAuthFilter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
